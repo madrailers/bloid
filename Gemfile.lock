@@ -56,11 +56,18 @@ GIT
       rake (>= 0.8.7)
       thor (~> 0.14.4)
 
+PATH
+  remote: .
+  specs:
+    bloid (0.0.1)
+      mongoid (~> 2.0.0.beta.20)
+
 GEM
   remote: http://rubygems.org/
   specs:
     abstract (1.0.0)
     bcrypt-ruby (2.1.4)
+    bson (1.2.0)
     builder (3.0.0)
     diff-lcs (1.1.2)
     erubis (2.6.6)
@@ -72,6 +79,13 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    mongo (1.2.0)
+      bson (>= 1.2.0)
+    mongoid (2.0.0.rc.7)
+      activemodel (~> 3.0)
+      mongo (~> 1.2)
+      tzinfo (~> 0.3.22)
+      will_paginate (~> 3.0.pre)
     polyglot (0.3.1)
     rack-cache (1.0)
       rack (>= 0.4)
@@ -92,12 +106,14 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.24)
+    will_paginate (3.0.pre2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   arel!
+  bloid!
   rack!
   rails!
   rspec
