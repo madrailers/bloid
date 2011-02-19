@@ -1,18 +1,6 @@
 GIT
-  remote: git://github.com/rack/rack.git
-  revision: 1c2715778d3753dce4d8df19e3d3cc698aed20c6
-  specs:
-    rack (1.2.1)
-
-GIT
-  remote: git://github.com/rails/arel.git
-  revision: 4d92a6b33476a5b324188bd86dfa5b5d3f4dcd3a
-  specs:
-    arel (2.0.7.beta.20110121165657)
-
-GIT
   remote: git://github.com/rails/rails.git
-  revision: 78d23edf9a5ba6d4c50cb603c9828fcf5c7fe357
+  revision: 289cc15f1a89a179116f67e5f666f4ff6d645f03
   specs:
     actionmailer (3.1.0.beta)
       actionpack (= 3.1.0.beta)
@@ -57,7 +45,7 @@ GIT
       thor (~> 0.14.4)
 
 PATH
-  remote: .
+  remote: /Users/brad/dev/bloid
   specs:
     bloid (0.0.1)
       mongoid (~> 2.0.0.beta.20)
@@ -66,10 +54,10 @@ GEM
   remote: http://rubygems.org/
   specs:
     abstract (1.0.0)
+    arel (2.0.8)
     bcrypt-ruby (2.1.4)
     bson (1.2.2)
     builder (3.0.0)
-    diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     i18n (0.5.0)
@@ -87,6 +75,7 @@ GEM
       tzinfo (~> 0.3.22)
       will_paginate (~> 3.0.pre)
     polyglot (0.3.1)
+    rack (1.2.1)
     rack-cache (1.0)
       rack (>= 0.4)
     rack-mount (0.6.13)
@@ -94,14 +83,6 @@ GEM
     rack-test (0.5.7)
       rack (>= 1.0)
     rake (0.8.7)
-    rspec (2.4.0)
-      rspec-core (~> 2.4.0)
-      rspec-expectations (~> 2.4.0)
-      rspec-mocks (~> 2.4.0)
-    rspec-core (2.4.0)
-    rspec-expectations (2.4.0)
-      diff-lcs (~> 1.1.2)
-    rspec-mocks (2.4.0)
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
@@ -112,8 +93,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  arel!
   bloid!
-  rack!
   rails!
-  rspec

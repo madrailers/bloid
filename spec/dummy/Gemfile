@@ -1,0 +1,4 @@
+source :rubygems
+
+gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'bloid', :path => File.expand_path('../../../', __FILE__)
