@@ -1,0 +1,5 @@
+= link_to 'New Post', new_admin_post_path
+%h1 Posts
+- @posts.each do |post|
+  %h2= post.title
+  %p= post.html_body.html_safe
