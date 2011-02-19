@@ -60,6 +60,7 @@ PATH
   remote: .
   specs:
     bloid (0.0.1)
+      bson_ext (~> 1.2.2)
       mongoid (~> 2.0.0.beta.20)
 
 GEM
@@ -68,6 +69,7 @@ GEM
     abstract (1.0.0)
     bcrypt-ruby (2.1.4)
     bson (1.2.2)
+    bson_ext (1.2.2)
     builder (3.0.0)
     diff-lcs (1.1.2)
     erubis (2.6.6)

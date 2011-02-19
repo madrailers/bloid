@@ -1,4 +1,5 @@
-require "bloid/engine"
+require 'bloid/engine'
+require 'mongoid'
 
 module Bloid
 end
