@@ -1,0 +1,1 @@
+NB: Can't figure out how to get ActionController::TestCase::Behavior mixed into ExampleGroups. Rspec usually does this automatically, but apparently not in an engine. Without this, we don't get the typical 'get', 'post', etc helpers.
