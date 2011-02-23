@@ -1,1 +1,6 @@
-rvm gemset use bloid
+if [[ `rvm current` == "system" ]]
+then
+  rvm use 1.9.2@bloid
+else
+  rvm gemset use bloid
+fi
